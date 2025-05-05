@@ -1,0 +1,346 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #ffffff; /* White text for dark background */
+    background-color: #000000; /* Black background */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background: #111111; /* Darker black for header */
+    color: #ffffff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #00bcd4; /* Cyan color for hover */
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    padding: 4rem 0;
+    background-color: #111111; /* Darker black for sections */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #00bcd4; /* Cyan color for headings */
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #cccccc; /* Light gray for text */
+}
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00bcd4; /* Cyan border for image */
+}
+
+/* Skills Section */
+/* Skills Section */
+.skills-section {
+    padding: 4rem 0;
+    background-color: #111111; /* Dark background */
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #00bcd4; /* Cyan color for heading */
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.skill-box {
+    background: #00bcd4; /* Cyan background for skill boxes */
+    color: #000000; /* Black text for skill boxes */
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: scale(1.1);
+    background: #0097a7; /* Darker cyan on hover */
+}
+/* Projects Section */
+.projects-section {
+    padding: 4rem 0;
+    background-color: #111111;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 2rem;
+}
+
+.project-card {
+    background: #1a1a1a; /* Dark gray for project cards */
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3); /* Cyan shadow on hover */
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #00bcd4; /* Cyan for project titles */
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #cccccc; /* Light gray for project descriptions */
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 1rem;
+    color: #00bcd4; /* Cyan for heading */
+}
+
+.contact-section p {
+    margin-bottom: 2rem;
+    color: #cccccc; /* Light gray for text */
+}
+
+/* Footer Styles */
+.footer {
+    background: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.social-media {
+    margin-bottom: 1rem;
+}
+
+.social-media a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #00bcd4; /* Cyan for social media icons on hover */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #00bcd4; /* Cyan for buttons */
+    color: #000000; /* Black text for buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0097a7; /* Darker cyan on hover */
+}
+img{
+    width: 300px;
+    height: 150px;
+}
+
+
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+}
+.contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-text h2 span{
+    color: #0ef;
+}
+.contact-text h4{
+    margin: 15px 0;
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-text p{
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.contact-list{
+    margin-bottom: 3rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #0ef;
+}
+.contact-icons i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.contact-icons i:hover{
+    background: #0ef;
+    color: #000;
+    box-shadow: 0  0 20px #0ef;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    display: inline-block;
+    padding: 14px 60px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #001b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+.contact-form form .send:hover{
+    background: red;
+    color: red;
+    box-shadow: 0 0 20px #0ef;
+}
+
+@keyframes slideTop {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

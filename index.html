@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Kulkarni - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Atharv Kulkarni</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Atharv Kulkarni, a passionate Computer Engineering student with a strong interest in web development and problem-solving. Welcome to my portfolio!</p>
+                    <p>I have experience in C++, Python, Java, Full Stack Development, and more. I am always eager to learn new technologies and take on challenging projects.</p>
+                    <div class="resume">
+                        <a href="Atharv_Kulkarni_Resume.pdf" class="btn" download>Download Resume</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/ak.png" alt="Atharv Kulkarni">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">Javascript</div>
+                <div class="skill-box">MySql</div>
+                <div class="skill-box">Node.js</div>
+                <div class="skill-box">WebDesign</div>
+                <div class="skill-box">Express.js</div>
+                <div class="skill-box">MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+          <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <a href="https://frontend-collab.vercel.app/" target="_blank">
+                        <img class="projects-grid" src="images/mern-collab-draewing copy.png">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <a href="https://frontend-collab.vercel.app/" target="_blank">
+                        <img class="projects-grid" src="images/mern-collab-draewing copy.png">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <a href="https://frontend-collab.vercel.app/" target="_blank">
+                        <img class="projects-grid" src="images/mern-collab-draewing copy.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+          <h2>Contact <span>Me</span></h2>
+          <h4>Let's Work Together</h4>
+          <p>I would love to hear your thoughts, suggestions, or any feedback you have!</p>
+          <div class="contact-list">
+            <li><i class="bx bxs-send"></i> atharvkulkarni3904@gmail.com</li>
+            <li><i class="bx bx-phone"></i> 9284665325</li>
+          </div>
+        </div>
+      
+        <!-- Feedback Form -->
+        <div class="contact-form">
+          <form name="feedback" action="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="feedback" />
+            <input type="text" name="name" placeholder="Enter Your Name" required />
+            <input type="email" name="email" placeholder="Enter Your Email" required />
+            <input type="text" name="subject" placeholder="Enter Your Subject" />
+            <textarea name="message" cols="40" rows="10" placeholder="Enter Your Feedback" required></textarea>
+            <div data-netlify-recaptcha="true"></div>
+            <input type="submit" value="Submit Feedback" class="send" />
+          </form>
+        </div>
+      </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="social-media">
+                <a href="https://x.com/AtharvKulkarni0" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/atharv_kulkarni3904/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Atharv3904" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/atharv3904/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:atharvkulkarni3904@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 Atharv Kulkarni. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
